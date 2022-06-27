@@ -17,9 +17,9 @@ const MobileNav = (): JSX.Element => {
         <Collapse isOpen={!collapsed} navbar>
           <ul className="menu-nav">
             <li className="nav-item"><NavLink to="/" exact activeClassName="active" tag={RRNavLink} onClick={toggleNavbar}>Home</NavLink></li>
-            <li className="nav-item"><NavLink to="/about" tag={RRNavLink} onClick={toggleNavbar}>About Me</NavLink></li>
-            <li className="nav-item"><NavLink to="/work" tag={RRNavLink} onClick={toggleNavbar}>My Work</NavLink></li>
-            <li className="nav-item"><NavLink to="/contact" tag={RRNavLink} onClick={toggleNavbar}>Contact Me</NavLink></li>
+            <li className="nav-item"><NavLink to="/about" tag={RRNavLink} onClick={toggleNavbar}>Our Services</NavLink></li>
+            <li className="nav-item"><NavLink to="/work" tag={RRNavLink} onClick={toggleNavbar}>Current Clients</NavLink></li>
+            <li className="nav-item"><NavLink to="/contact" tag={RRNavLink} onClick={toggleNavbar}>Contact</NavLink></li>
           </ul>
         </Collapse>
       </Navbar>
