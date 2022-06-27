@@ -1,8 +1,6 @@
 version: 2.1
 jobs:
-  build:
-    environment:
-      CC_TEST_REPORTER_ID: 56c9a210ad6da7ab52065beff45ddac91f975afde5e69301b633960e30db8de2
+  build: 
     docker:
       - image: cimg/node:16.13.2-browsers
     working_directory: ~/repo
