@@ -73,6 +73,8 @@
     "css-loader": "latest",
     "dotenv": "latest",
     "expose-loader": "latest",
+    "express": "^4.18.1",
+    "express-sslify": "^1.2.0",
     "file-loader": "latest",
     "hammerjs": "latest",
     "html-loader": "latest",
