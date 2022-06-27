@@ -4,23 +4,22 @@ const ContactContent = (): JSX.Element => (
       <h1 className="lg-heading">
         Contact
         {' '}
-        <span className="text-secondary">Me</span>
+        <span className="text-secondary">Us</span>
       </h1>
       <h2 className="sm-heading">
-        Want to talk? Here's where I can be reached!
+        Want to talk? Here's where we can be reached!
       </h2>
     </div>
     <div className="contact-info">
       <div className="contact-info--box">
+        {/* Look at WebJam to figure out a contact form and impliment it. */}
         <p>
-          <a href="mailto:rhayven@codingforllamas.com" target="_blank" rel="noopener noreferrer">Email</a>
+          <a href="mailto:admin@hivemediaworks.com" target="_blank" rel="noopener noreferrer">Email</a>
           <br />
-          <a href="https://www.facebook.com/codingforllamas/" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a href="https://www.facebook.com/hivemediaworks/" target="_blank" rel="noopener noreferrer">Facebook</a>
           <br />
-          <a href="https://twitter.com/codingforllamas" target="_blank" rel="noopener noreferrer">Twitter
+          <a href="https://twitter.com/hivemediaworks" target="_blank" rel="noopener noreferrer">Twitter
           </a>
-          <br />
-          <a href="https://github.com/unesdala" target="_blank" rel="noopener noreferrer">Github</a>
         </p>
       </div>
     </div>

@@ -13,7 +13,7 @@ const when = (condition, config, negativeConfig) => (condition ? ensureArray(con
 
 // primary config:
 const nodeEnv = process.env.NODE_ENV || 'development';
-const title = 'Coding For Llamas';
+const title = 'Hive Media Works';
 const outDir = path.resolve(__dirname, 'dist');
 const srcDir = path.resolve(__dirname, 'src');
 const baseUrl = '/';

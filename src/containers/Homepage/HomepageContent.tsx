@@ -5,25 +5,22 @@ const HomeContent = (): JSX.Element => (
       <img src={background} alt="Laptop" className="bg" />
       <div className="home-header">
         <h1 className="lg-heading">
-          Rhayven
+          Hive Media
           {' '}
-          <span className="text-secondary">Ayers</span>
+          <span className="text-secondary">Works</span>
         </h1>
         <h2 className="sm-heading">
-          Accessible Web Developer, Programmer &amp; Designer
+          Lorem ipsum dolor sit amet.
         </h2>
         <div className="icons">
-          <a href="https://twitter.com/codingforllamas" aria-label="Twitter Page">
+          <a href="https://twitter.com/hivemediaworks" aria-label="Twitter Page">
             <i className="fab fa-twitter fa-2x" />
           </a>
-          <a href="https://www.facebook.com/codingforllamas" aria-label="Facebook Page">
+          <a href="https://www.facebook.com/hivemediaworks" aria-label="Facebook Page">
             <i className="fab fa-facebook fa-2x" />
           </a>
-          <a href="https://www.linkedin.com/in/rhayvenayers" aria-label="LinkedIn Page">
+          <a href="https://www.linkedin.com/in/hivemediaworks" aria-label="LinkedIn Page">
             <i className="fab fa-linkedin fa-2x" />
-          </a>
-          <a href="https://github.com/Unesdala" aria-label="Github Page">
-            <i className="fab fa-github fa-2x" />
           </a>
         </div>
       </div>

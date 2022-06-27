@@ -1,7 +1,7 @@
 import WorkContent from './WorkContent';
 
 export const Work = (): JSX.Element => {
-  document.title = 'Work | Coding For Llamas';  
+  document.title = 'Work | Hive Media Works ';  
   return (
       <div className="Site-content">
         <main className="work-main">

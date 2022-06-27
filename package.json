@@ -1,10 +1,10 @@
 {
-  "name": "cfl",
-  "version": "2.0.0",
-  "description": "codingforllamas.com",
+  "name": "hivemediaworks",
+  "version": "1.0.0",
+  "description": "hivemediaworks.com",
   "main": "dist/index.html",
   "repository": {
-    "url": "https://github.com/Unesdala/cfl.git",
+    "url": "https://github.com/coding-for-llamas/hivemediaworks.git",
     "type": "git"
   },
   "author": "https://github.com/Unesdala",
@@ -15,8 +15,8 @@
     }
   ],
   "engines": {
-    "node": ">=16.13.2 <17",
-    "npm": ">=8.3.0 <9"
+    "node": ">=18 <19",
+    "npm": ">=8.6.0 <9"
   },
   "files": [
     "webpack.config.js",
