@@ -14,7 +14,7 @@ export class Navigation extends React.Component<NavigationProps> {
     const { width, targetRef } = this.props;
     return (
       <div ref={targetRef} className="navigation">
-        {width <= 800
+        {width <= 850
           ? (
             <MobileMenu />
           ) : (
