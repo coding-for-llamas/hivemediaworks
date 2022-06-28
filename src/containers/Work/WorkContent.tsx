@@ -1,3 +1,5 @@
+import { gallery } from './gallery';
+
 const WorkContent = (): JSX.Element => (
   <>
     <div className="work-header">
@@ -11,15 +13,15 @@ const WorkContent = (): JSX.Element => (
       </h2>
     </div>
     <div className="work-projects">
-      <div className="work-projects--item">
-        {/*TODO: Setup grid box with JSON file that loops over data to populate some images/descriptions 
-        for current clients. Maybe setup pages for each specific one? */}
-        <div className="site">
-          <p>Lorem ipsum dolor sit amet.</p>
-          <p>Iusto dolore inventore consectetur error?</p>
-          <p>Numquam quidem maiores in saepe?</p>
+      {gallery.map((gal) => (
+        <div className="work-projects--item">
+          <div className="gallery">
+            <h2 className="gallery-header">{gal.name}</h2>
+            <img className="gallery-image" key={gal.name} src={gal.url} alt={gal.alt} />
+            <p>{gal.description}</p>
+          </div>
         </div>
-      </div>
+      ))}
     </div>
   </>
 );

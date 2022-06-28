@@ -5,8 +5,9 @@ function getFullYear() {
 }
 const Footer = (): JSX.Element => (
   <footer className="main-footer">
-    Copyright &copy; 2018-
-    {getFullYear()}
+    <div>
+      Copyright &copy; {getFullYear()}
+    </div>
   </footer>
 );
 

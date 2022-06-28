@@ -33,17 +33,13 @@
 
   &-proficiency {
     display: grid;
-    grid-template-columns: repeat(3, 250px);
-    justify-content: space-between;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: space-around;
     padding-top: 2rem;
     grid-gap: 3%;
 
-    @include respond('medium') {
-      grid-template-columns: repeat(3, auto);
-    }
-
     @include respond('small') {
-      grid-template-columns: repeat(1, 250px);
+      grid-template-columns: repeat(1, 80%);
       justify-content: center;
     }
 

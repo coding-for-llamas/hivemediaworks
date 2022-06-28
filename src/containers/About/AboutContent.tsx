@@ -6,10 +6,14 @@ const AboutContent = (): JSX.Element => (
         {' '}
         <span className="text-secondary">Us</span>
       </h1>
+      <h2 className="sm-heading">Lorem ipsum dolor sit amet.</h2>
     </div>
     <div className="about-info">
       <div className="about-intro">
+        {/* <img className="about-picture" 
+        src="https://dl.dropboxusercontent.com/s/p8q5diyni6deo6h/HMW_Logo.png?dl=0" alt="Hive Media Works Logo" /> */}
         <div className="about-text">
+          <h2>Lorem, ipsum dolor.</h2>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
             Deserunt ex, sed mollitia voluptas aperiam atque nemo nobis deleniti quasi! Porro cum unde sint sunt similique.</p>
         </div>
