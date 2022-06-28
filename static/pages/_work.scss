@@ -5,8 +5,16 @@
   justify-items: center;
   padding-bottom: 2rem;
 
+  .gallery-header {
+    font-size: 1.5rem;
+  }
+
   @include respond('huge') {
     grid-template-columns: repeat(4, 1fr);
+
+    .gallery-header {
+      font-size: 1.75rem;
+    }
   }
 
   @include respond('large') {
@@ -21,7 +29,7 @@
     .gallery {
       display: grid;
 
-      &-header {
+      &-header, &-image, p {
         justify-self: center;
       }
       

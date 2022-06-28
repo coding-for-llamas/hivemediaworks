@@ -4,7 +4,7 @@ const WorkContent = (): JSX.Element => (
   <>
     <div className="work-header">
       <h1 className="lg-heading">
-        Our Current
+        Current
         {' '}
         <span className="text-secondary">Projects</span>
       </h1>
