@@ -15,8 +15,7 @@
     }
   ],
   "engines": {
-    "node": ">=18 <19",
-    "npm": ">=8.6.0 <9"
+    "node": ">=16"
   },
   "files": [
     "webpack.config.js",
